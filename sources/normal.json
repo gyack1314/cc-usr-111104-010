@@ -1,0 +1,14 @@
+{
+  "routes": [
+    {
+      "path": "/about",
+      "responses": [
+        {
+          "status": 200,
+          "headers": [],
+          "text": "Git资料由本地生成器提供"
+        }
+      ]
+    }
+  ]
+}
