@@ -1,0 +1,58 @@
+{
+  "commits": [
+    {
+      "commit": "b3aa7951e6b77624dd2030ec55d00c20eaf4a6ce",
+      "repo": "http://127.0.0.1:44903/budget.git",
+      "store_key": "de62f6fea3813ba5be95feadc22e9bb741d023510280b3e0c0caa347f1f0ce6b"
+    }
+  ],
+  "counts": {
+    "content_bytes": 406,
+    "entries": 2,
+    "export_paths": 2
+  },
+  "entries": [
+    {
+      "mode": "100644",
+      "oid": "ac790413e2d7a26c3767e78c57bb28716686eebc",
+      "path": "note.txt",
+      "sha256": "4c47b3e816fbe7d40cef9f665ba8f0be1ae68b5e8e7ed70f5b6bab7f70528e8f",
+      "size": 6,
+      "store_key": "4c47b3e816fbe7d40cef9f665ba8f0be1ae68b5e8e7ed70f5b6bab7f70528e8f",
+      "type": "blob"
+    },
+    {
+      "mode": "100644",
+      "oid": "d0551086d1efbcc6277af296d18a544428492b34",
+      "path": "payload.bin",
+      "sha256": "7b0bd700ce066ef35190fde2dd7a0bcce426b8e10e4d32613ab550105545faad",
+      "size": 400,
+      "store_key": "7b0bd700ce066ef35190fde2dd7a0bcce426b8e10e4d32613ab550105545faad",
+      "type": "blob"
+    }
+  ],
+  "limits": {
+    "max_bytes": 2048,
+    "max_depth": 8,
+    "max_paths": 10000
+  },
+  "manifest_version": 1,
+  "root": {
+    "commit": "b3aa7951e6b77624dd2030ec55d00c20eaf4a6ce",
+    "requested_ref": "main",
+    "source": "http://127.0.0.1:44903/budget.git",
+    "tree": "8db53180187cefa86de9f363486a21f02324775a"
+  },
+  "submodule_lock": [],
+  "whitelist": [
+    "http://127.0.0.1:44903/root.git",
+    "http://127.0.0.1:44903/middle.git",
+    "http://127.0.0.1:44903/inner.git",
+    "http://127.0.0.1:44903/group/deep.git",
+    "http://127.0.0.1:44903/leaf.git",
+    "http://127.0.0.1:44903/broken.git",
+    "http://127.0.0.1:44903/decl-mismatch.git",
+    "http://127.0.0.1:44903/decl-duplicate.git",
+    "http://127.0.0.1:44903/budget.git"
+  ]
+}

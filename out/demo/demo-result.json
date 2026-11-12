@@ -1,0 +1,109 @@
+{
+  "scenarios": [
+    {
+      "scenario": "branch-move",
+      "ok": true,
+      "detail": {
+        "fixed_commit": "8807ab2b069919a1096399ce16994aadba6a0aa9",
+        "later_main": "adef456383876fc4127f52f02bc0f1fef0d9ac6e",
+        "offline_verify": true
+      }
+    },
+    {
+      "scenario": "shared-and-nested",
+      "ok": true,
+      "detail": {
+        "leaf_gitlink_paths": [
+          "a/deps/deep/vendor/leaf",
+          "a/deps/inner/vendor/sensor",
+          "a/sensor",
+          "b",
+          "shared/leaf-copy"
+        ],
+        "nested_relative_resolution": {
+          "path": "a/deps/inner/vendor/sensor",
+          "parent_repo": "file:///workspace/out/repos/inner.git",
+          "declared_url": "../leaf.git",
+          "resolved_repo": "file:///workspace/out/repos/leaf.git",
+          "commit": "c6f33ee776af3e9fc44be9b3ae21295f020c8fe9",
+          "tree": "16b82248c8827fa2302de70660dd932930089eb9",
+          "depth": 3,
+          "parent_path": "a/deps/inner"
+        },
+        "multilevel_relative_resolution": {
+          "path": "a/deps/deep/vendor/leaf",
+          "parent_repo": "file:///workspace/out/repos/group/deep.git",
+          "declared_url": "../../leaf.git",
+          "resolved_repo": "file:///workspace/out/repos/leaf.git",
+          "commit": "c6f33ee776af3e9fc44be9b3ae21295f020c8fe9",
+          "tree": "16b82248c8827fa2302de70660dd932930089eb9",
+          "depth": 3,
+          "parent_path": "a/deps/deep"
+        }
+      }
+    },
+    {
+      "scenario": "links-modes-lfs",
+      "ok": true,
+      "detail": {
+        "symlink": "a/deps/deep/vendor/leaf/docs/link-to-sensor",
+        "lfs": "a/deps/deep/vendor/leaf/data/map.bin",
+        "executable": "a/deps/deep/vendor/leaf/probe.sh"
+      }
+    },
+    {
+      "scenario": "missing-gitlink",
+      "ok": true,
+      "detail": {
+        "error": "缺少 gitlink 提交 0123456789abcdef0123456789abcdef01234567（来源 file:///workspace/out/repos/leaf.git）：From /workspace/out/repos/leaf\n * [new branch]      future     -> collected/heads/future\n * [new branch]      main       -> collected/heads/main",
+        "no_success_marker": true
+      }
+    },
+    {
+      "scenario": "over-budget",
+      "ok": true,
+      "detail": {
+        "error": "超出内容字节预算 256"
+      }
+    },
+    {
+      "scenario": "decl-mismatch",
+      "ok": true,
+      "detail": {
+        "error": ".gitmodules 声明了 ghost 但树中该路径不是 gitlink（声明不匹配/重复声明）"
+      }
+    },
+    {
+      "scenario": "decl-duplicate",
+      "ok": true,
+      "detail": {
+        "error": ".gitmodules 重复声明子模块路径: same"
+      }
+    },
+    {
+      "scenario": "depth-limit",
+      "ok": true,
+      "detail": {
+        "error": "子模块嵌套深度超过上限 2: a/deps/inner/vendor/sensor"
+      }
+    },
+    {
+      "scenario": "whitelist",
+      "ok": true,
+      "detail": {
+        "error": "子模块解析后不在白名单内: file:///workspace/out/repos/middle.git（声明于 a）"
+      }
+    },
+    {
+      "scenario": "resume-after-abort",
+      "ok": true,
+      "detail": {
+        "reused_work_dir": true,
+        "verify": true,
+        "content_bytes": 406
+      }
+    }
+  ],
+  "ok": true,
+  "package_under_test": "/workspace/out/demo/pkg-before-move/package"
+}

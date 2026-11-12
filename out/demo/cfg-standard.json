@@ -1,0 +1,13 @@
+{
+  "whitelist": [
+    "file:///workspace/out/repos/root.git",
+    "file:///workspace/out/repos/middle.git",
+    "file:///workspace/out/repos/inner.git",
+    "file:///workspace/out/repos/group/deep.git",
+    "file:///workspace/out/repos/leaf.git",
+    "file:///workspace/out/repos/broken.git",
+    "file:///workspace/out/repos/decl-mismatch.git",
+    "file:///workspace/out/repos/decl-duplicate.git",
+    "file:///workspace/out/repos/budget.git"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "commits": [
+    {
+      "commit": "adef456383876fc4127f52f02bc0f1fef0d9ac6e",
+      "repo": "http://127.0.0.1:44903/root.git",
+      "store_key": "7f66ed83709f05845cd2ff144735eea87d832137b9e31de8d03139963c45ca89"
+    }
+  ],
+  "counts": {
+    "content_bytes": 31,
+    "entries": 1,
+    "export_paths": 1
+  },
+  "entries": [
+    {
+      "mode": "100644",
+      "oid": "8291c5c6062849c4e20b92cf6ff7eb22d1568b93",
+      "path": "new.txt",
+      "sha256": "c7cdb7efef31a1544493c1587b68f2659fffc5d77941a28399f3e320e20df5ac",
+      "size": 31,
+      "store_key": "c7cdb7efef31a1544493c1587b68f2659fffc5d77941a28399f3e320e20df5ac",
+      "type": "blob"
+    }
+  ],
+  "limits": {
+    "max_bytes": 104857600,
+    "max_depth": 8,
+    "max_paths": 10000
+  },
+  "manifest_version": 1,
+  "root": {
+    "commit": "adef456383876fc4127f52f02bc0f1fef0d9ac6e",
+    "requested_ref": "main",
+    "source": "http://127.0.0.1:44903/root.git",
+    "tree": "d3860733dd55a79dbaad1704f9224be131ed0f20"
+  },
+  "submodule_lock": [],
+  "whitelist": [
+    "http://127.0.0.1:44903/root.git",
+    "http://127.0.0.1:44903/middle.git",
+    "http://127.0.0.1:44903/inner.git",
+    "http://127.0.0.1:44903/group/deep.git",
+    "http://127.0.0.1:44903/leaf.git",
+    "http://127.0.0.1:44903/broken.git",
+    "http://127.0.0.1:44903/decl-mismatch.git",
+    "http://127.0.0.1:44903/decl-duplicate.git",
+    "http://127.0.0.1:44903/budget.git"
+  ]
+}

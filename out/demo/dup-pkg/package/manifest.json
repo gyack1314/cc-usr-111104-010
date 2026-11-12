@@ -1,0 +1,562 @@
+{
+  "commits": [
+    {
+      "commit": "ce05e57ebf713be19057c94e05a992548804ec0b",
+      "repo": "file:///workspace/out/repos/group/deep.git",
+      "store_key": "e6610aeb53e66d381097c04085a20c858b9315107191cac56d52ee0e14949453"
+    },
+    {
+      "commit": "2d1289906fcc64a091ad34db65461e20494c107b",
+      "repo": "file:///workspace/out/repos/inner.git",
+      "store_key": "b7c5ef658dcea7e65530a2a93fd56101cfd2c501686133e4f3d8d66163871b78"
+    },
+    {
+      "commit": "c6f33ee776af3e9fc44be9b3ae21295f020c8fe9",
+      "repo": "file:///workspace/out/repos/leaf.git",
+      "store_key": "05dc95e3f30b2090c1e4f469551e20f3930f42f0a59ab3aec22d985c00b4e547"
+    },
+    {
+      "commit": "617876c576ec49c9ef94b066e540f0d6d5d93122",
+      "repo": "file:///workspace/out/repos/middle.git",
+      "store_key": "4ee5f7cd360133a6ba0cd734a8e6c7b7a9dc353e02abec705beb1d41ec57ee07"
+    },
+    {
+      "commit": "8807ab2b069919a1096399ce16994aadba6a0aa9",
+      "repo": "file:///workspace/out/repos/root.git",
+      "store_key": "efa45f119a7b1f7119eb53c85aa27a90f7c645d9648e64ed04912815a960483f"
+    }
+  ],
+  "counts": {
+    "content_bytes": 1476,
+    "entries": 52,
+    "export_paths": 52
+  },
+  "entries": [
+    {
+      "mode": "100644",
+      "oid": "37eb707c5c325270783b8c348e0b0d88f990fc1d",
+      "path": ".gitmodules",
+      "sha256": "220ce673e787af3b2937778c399c8d2b7fead7e4a3f2171a9af3bfe256ed3995",
+      "size": 152,
+      "store_key": "220ce673e787af3b2937778c399c8d2b7fead7e4a3f2171a9af3bfe256ed3995",
+      "type": "blob"
+    },
+    {
+      "mode": "100644",
+      "oid": "4ea69030ff994cbc11954a8185e7fd5da068376f",
+      "path": "README.md",
+      "sha256": "399f10ac2581bbc70c51f06e24db3c1869f802328db68bba54b982ca4aec4d8f",
+      "size": 20,
+      "store_key": "399f10ac2581bbc70c51f06e24db3c1869f802328db68bba54b982ca4aec4d8f",
+      "type": "blob"
+    },
+    {
+      "mode": "160000",
+      "oid": "617876c576ec49c9ef94b066e540f0d6d5d93122",
+      "path": "a",
+      "source": "file:///workspace/out/repos/middle.git",
+      "type": "gitlink"
+    },
+    {
+      "mode": "100644",
+      "oid": "d347459a8a06b6985f066ec96e4ef67ccb4a0c39",
+      "path": "a/.gitmodules",
+      "sha256": "8eb9ad84eb4aeecf3ab903e81237778485db40a34e7779d46f2e6bf5001ff5e3",
+      "size": 176,
+      "store_key": "8eb9ad84eb4aeecf3ab903e81237778485db40a34e7779d46f2e6bf5001ff5e3",
+      "type": "blob"
+    },
+    {
+      "mode": "040000",
+      "oid": "625ed5cfd798784b621556337d91b283d69d0967",
+      "path": "a/deps",
+      "type": "tree"
+    },
+    {
+      "mode": "160000",
+      "oid": "ce05e57ebf713be19057c94e05a992548804ec0b",
+      "path": "a/deps/deep",
+      "source": "file:///workspace/out/repos/group/deep.git",
+      "type": "gitlink"
+    },
+    {
+      "mode": "100644",
+      "oid": "88bbb0caf96be25c080e97801664332e2d1741a9",
+      "path": "a/deps/deep/.gitmodules",
+      "sha256": "112dc59ea187135de06d9af93ad0c8d99d51f6ac3add8b3d012267f458f27bc7",
+      "size": 63,
+      "store_key": "112dc59ea187135de06d9af93ad0c8d99d51f6ac3add8b3d012267f458f27bc7",
+      "type": "blob"
+    },
+    {
+      "mode": "100644",
+      "oid": "f4448229b6652494a3b7b07e200fb67928dac33e",
+      "path": "a/deps/deep/deep.py",
+      "sha256": "ad130534d24b9260d88985026c583c2b5e93282b730b3632d291eef1a2e5fd7a",
+      "size": 13,
+      "store_key": "ad130534d24b9260d88985026c583c2b5e93282b730b3632d291eef1a2e5fd7a",
+      "type": "blob"
+    },
+    {
+      "mode": "040000",
+      "oid": "2aee408db9b3c5a2a9185ade57c936e52f1e2433",
+      "path": "a/deps/deep/vendor",
+      "type": "tree"
+    },
+    {
+      "mode": "160000",
+      "oid": "c6f33ee776af3e9fc44be9b3ae21295f020c8fe9",
+      "path": "a/deps/deep/vendor/leaf",
+      "source": "file:///workspace/out/repos/leaf.git",
+      "type": "gitlink"
+    },
+    {
+      "mode": "040000",
+      "oid": "a2b22613a9b7ea77546fbdeeb11a94fd9eb474c8",
+      "path": "a/deps/deep/vendor/leaf/data",
+      "type": "tree"
+    },
+    {
+      "lfs_pointer": true,
+      "mode": "100644",
+      "oid": "6cc68db48f674758f88a66c0f9e42054db085cb3",
+      "path": "a/deps/deep/vendor/leaf/data/map.bin",
+      "sha256": "48c9a29a8d0922de2bf1b91653c94af5cc1248303db66c442fa73ec6af269fdb",
+      "size": 127,
+      "store_key": "48c9a29a8d0922de2bf1b91653c94af5cc1248303db66c442fa73ec6af269fdb",
+      "type": "blob"
+    },
+    {
+      "mode": "040000",
+      "oid": "ab9958f40b92f986b5f8a00f78cc2d1d7365fc34",
+      "path": "a/deps/deep/vendor/leaf/docs",
+      "type": "tree"
+    },
+    {
+      "mode": "120000",
+      "oid": "c6d96ff23f9cc90c3bc9ce951d2dcf15e12fdd0f",
+      "path": "a/deps/deep/vendor/leaf/docs/link-to-sensor",
+      "sha256": "1ac0584fd9fe17766114cc89a3b94d258d79c2e03042dc5564128c6fc4b07f64",
+      "size": 10,
+      "store_key": "1ac0584fd9fe17766114cc89a3b94d258d79c2e03042dc5564128c6fc4b07f64",
+      "symlink_target": "sensor.txt",
+      "type": "blob"
+    },
+    {
+      "mode": "100755",
+      "oid": "16544a06285280e8bc7580a8cd1a4148d40aab03",
+      "path": "a/deps/deep/vendor/leaf/probe.sh",
+      "sha256": "e8c589cde2185fa68d06db170a541318c56d37d0929c8eb31ab0c81f063d808c",
+      "size": 25,
+      "store_key": "e8c589cde2185fa68d06db170a541318c56d37d0929c8eb31ab0c81f063d808c",
+      "type": "blob"
+    },
+    {
+      "mode": "100644",
+      "oid": "8603734d3fb1e2a3246a69eed09e7c9b00849912",
+      "path": "a/deps/deep/vendor/leaf/sensor.txt",
+      "sha256": "db6c63d79c9376dd63b92246bbc613c34ca2b11490697a2cb3abe8f2d3c134c8",
+      "size": 22,
+      "store_key": "db6c63d79c9376dd63b92246bbc613c34ca2b11490697a2cb3abe8f2d3c134c8",
+      "type": "blob"
+    },
+    {
+      "mode": "160000",
+      "oid": "2d1289906fcc64a091ad34db65461e20494c107b",
+      "path": "a/deps/inner",
+      "source": "file:///workspace/out/repos/inner.git",
+      "type": "gitlink"
+    },
+    {
+      "mode": "100644",
+      "oid": "e702ea9b0f478fe4df62abdaf1b4b4bc1dc76f93",
+      "path": "a/deps/inner/.gitmodules",
+      "sha256": "7897b730102dab3369ff4cc5c749f5f7b32ba76e28d66fb368ac0bd2baa7efc8",
+      "size": 62,
+      "store_key": "7897b730102dab3369ff4cc5c749f5f7b32ba76e28d66fb368ac0bd2baa7efc8",
+      "type": "blob"
+    },
+    {
+      "mode": "100644",
+      "oid": "5291ae9a5bf259c45616bb6ab23ac897ea83536c",
+      "path": "a/deps/inner/service.py",
+      "sha256": "7a3a4886c9925e8f372c7af202e35706c1f522a82f25d508bf5a8c8c1562c34f",
+      "size": 14,
+      "store_key": "7a3a4886c9925e8f372c7af202e35706c1f522a82f25d508bf5a8c8c1562c34f",
+      "type": "blob"
+    },
+    {
+      "mode": "040000",
+      "oid": "ad52127c91152c05d2f3d34ad2f33f810ca71998",
+      "path": "a/deps/inner/vendor",
+      "type": "tree"
+    },
+    {
+      "mode": "160000",
+      "oid": "c6f33ee776af3e9fc44be9b3ae21295f020c8fe9",
+      "path": "a/deps/inner/vendor/sensor",
+      "source": "file:///workspace/out/repos/leaf.git",
+      "type": "gitlink"
+    },
+    {
+      "mode": "040000",
+      "oid": "a2b22613a9b7ea77546fbdeeb11a94fd9eb474c8",
+      "path": "a/deps/inner/vendor/sensor/data",
+      "type": "tree"
+    },
+    {
+      "lfs_pointer": true,
+      "mode": "100644",
+      "oid": "6cc68db48f674758f88a66c0f9e42054db085cb3",
+      "path": "a/deps/inner/vendor/sensor/data/map.bin",
+      "sha256": "48c9a29a8d0922de2bf1b91653c94af5cc1248303db66c442fa73ec6af269fdb",
+      "size": 127,
+      "store_key": "48c9a29a8d0922de2bf1b91653c94af5cc1248303db66c442fa73ec6af269fdb",
+      "type": "blob"
+    },
+    {
+      "mode": "040000",
+      "oid": "ab9958f40b92f986b5f8a00f78cc2d1d7365fc34",
+      "path": "a/deps/inner/vendor/sensor/docs",
+      "type": "tree"
+    },
+    {
+      "mode": "120000",
+      "oid": "c6d96ff23f9cc90c3bc9ce951d2dcf15e12fdd0f",
+      "path": "a/deps/inner/vendor/sensor/docs/link-to-sensor",
+      "sha256": "1ac0584fd9fe17766114cc89a3b94d258d79c2e03042dc5564128c6fc4b07f64",
+      "size": 10,
+      "store_key": "1ac0584fd9fe17766114cc89a3b94d258d79c2e03042dc5564128c6fc4b07f64",
+      "symlink_target": "sensor.txt",
+      "type": "blob"
+    },
+    {
+      "mode": "100755",
+      "oid": "16544a06285280e8bc7580a8cd1a4148d40aab03",
+      "path": "a/deps/inner/vendor/sensor/probe.sh",
+      "sha256": "e8c589cde2185fa68d06db170a541318c56d37d0929c8eb31ab0c81f063d808c",
+      "size": 25,
+      "store_key": "e8c589cde2185fa68d06db170a541318c56d37d0929c8eb31ab0c81f063d808c",
+      "type": "blob"
+    },
+    {
+      "mode": "100644",
+      "oid": "8603734d3fb1e2a3246a69eed09e7c9b00849912",
+      "path": "a/deps/inner/vendor/sensor/sensor.txt",
+      "sha256": "db6c63d79c9376dd63b92246bbc613c34ca2b11490697a2cb3abe8f2d3c134c8",
+      "size": 22,
+      "store_key": "db6c63d79c9376dd63b92246bbc613c34ca2b11490697a2cb3abe8f2d3c134c8",
+      "type": "blob"
+    },
+    {
+      "mode": "100644",
+      "oid": "a53583903764c2329c5426b15a1d7c560ac47d1d",
+      "path": "a/glue.py",
+      "sha256": "403e3ce4a62b7430cf6815206fc64e025103c102d0c6f40aa151c46058d8c1d6",
+      "size": 17,
+      "store_key": "403e3ce4a62b7430cf6815206fc64e025103c102d0c6f40aa151c46058d8c1d6",
+      "type": "blob"
+    },
+    {
+      "mode": "160000",
+      "oid": "c6f33ee776af3e9fc44be9b3ae21295f020c8fe9",
+      "path": "a/sensor",
+      "source": "file:///workspace/out/repos/leaf.git",
+      "type": "gitlink"
+    },
+    {
+      "mode": "040000",
+      "oid": "a2b22613a9b7ea77546fbdeeb11a94fd9eb474c8",
+      "path": "a/sensor/data",
+      "type": "tree"
+    },
+    {
+      "lfs_pointer": true,
+      "mode": "100644",
+      "oid": "6cc68db48f674758f88a66c0f9e42054db085cb3",
+      "path": "a/sensor/data/map.bin",
+      "sha256": "48c9a29a8d0922de2bf1b91653c94af5cc1248303db66c442fa73ec6af269fdb",
+      "size": 127,
+      "store_key": "48c9a29a8d0922de2bf1b91653c94af5cc1248303db66c442fa73ec6af269fdb",
+      "type": "blob"
+    },
+    {
+      "mode": "040000",
+      "oid": "ab9958f40b92f986b5f8a00f78cc2d1d7365fc34",
+      "path": "a/sensor/docs",
+      "type": "tree"
+    },
+    {
+      "mode": "120000",
+      "oid": "c6d96ff23f9cc90c3bc9ce951d2dcf15e12fdd0f",
+      "path": "a/sensor/docs/link-to-sensor",
+      "sha256": "1ac0584fd9fe17766114cc89a3b94d258d79c2e03042dc5564128c6fc4b07f64",
+      "size": 10,
+      "store_key": "1ac0584fd9fe17766114cc89a3b94d258d79c2e03042dc5564128c6fc4b07f64",
+      "symlink_target": "sensor.txt",
+      "type": "blob"
+    },
+    {
+      "mode": "100755",
+      "oid": "16544a06285280e8bc7580a8cd1a4148d40aab03",
+      "path": "a/sensor/probe.sh",
+      "sha256": "e8c589cde2185fa68d06db170a541318c56d37d0929c8eb31ab0c81f063d808c",
+      "size": 25,
+      "store_key": "e8c589cde2185fa68d06db170a541318c56d37d0929c8eb31ab0c81f063d808c",
+      "type": "blob"
+    },
+    {
+      "mode": "100644",
+      "oid": "8603734d3fb1e2a3246a69eed09e7c9b00849912",
+      "path": "a/sensor/sensor.txt",
+      "sha256": "db6c63d79c9376dd63b92246bbc613c34ca2b11490697a2cb3abe8f2d3c134c8",
+      "size": 22,
+      "store_key": "db6c63d79c9376dd63b92246bbc613c34ca2b11490697a2cb3abe8f2d3c134c8",
+      "type": "blob"
+    },
+    {
+      "mode": "160000",
+      "oid": "c6f33ee776af3e9fc44be9b3ae21295f020c8fe9",
+      "path": "b",
+      "source": "file:///workspace/out/repos/leaf.git",
+      "type": "gitlink"
+    },
+    {
+      "mode": "040000",
+      "oid": "a2b22613a9b7ea77546fbdeeb11a94fd9eb474c8",
+      "path": "b/data",
+      "type": "tree"
+    },
+    {
+      "lfs_pointer": true,
+      "mode": "100644",
+      "oid": "6cc68db48f674758f88a66c0f9e42054db085cb3",
+      "path": "b/data/map.bin",
+      "sha256": "48c9a29a8d0922de2bf1b91653c94af5cc1248303db66c442fa73ec6af269fdb",
+      "size": 127,
+      "store_key": "48c9a29a8d0922de2bf1b91653c94af5cc1248303db66c442fa73ec6af269fdb",
+      "type": "blob"
+    },
+    {
+      "mode": "040000",
+      "oid": "ab9958f40b92f986b5f8a00f78cc2d1d7365fc34",
+      "path": "b/docs",
+      "type": "tree"
+    },
+    {
+      "mode": "120000",
+      "oid": "c6d96ff23f9cc90c3bc9ce951d2dcf15e12fdd0f",
+      "path": "b/docs/link-to-sensor",
+      "sha256": "1ac0584fd9fe17766114cc89a3b94d258d79c2e03042dc5564128c6fc4b07f64",
+      "size": 10,
+      "store_key": "1ac0584fd9fe17766114cc89a3b94d258d79c2e03042dc5564128c6fc4b07f64",
+      "symlink_target": "sensor.txt",
+      "type": "blob"
+    },
+    {
+      "mode": "100755",
+      "oid": "16544a06285280e8bc7580a8cd1a4148d40aab03",
+      "path": "b/probe.sh",
+      "sha256": "e8c589cde2185fa68d06db170a541318c56d37d0929c8eb31ab0c81f063d808c",
+      "size": 25,
+      "store_key": "e8c589cde2185fa68d06db170a541318c56d37d0929c8eb31ab0c81f063d808c",
+      "type": "blob"
+    },
+    {
+      "mode": "100644",
+      "oid": "8603734d3fb1e2a3246a69eed09e7c9b00849912",
+      "path": "b/sensor.txt",
+      "sha256": "db6c63d79c9376dd63b92246bbc613c34ca2b11490697a2cb3abe8f2d3c134c8",
+      "size": 22,
+      "store_key": "db6c63d79c9376dd63b92246bbc613c34ca2b11490697a2cb3abe8f2d3c134c8",
+      "type": "blob"
+    },
+    {
+      "mode": "120000",
+      "oid": "d53e5fc512734ac2236c274b7169ecb6e3bfba37",
+      "path": "reference",
+      "sha256": "6c4a612d2de89d6d2cce6cb7fc7e2f5e67144d78c638f516d4ef4c156c568ce5",
+      "size": 20,
+      "store_key": "6c4a612d2de89d6d2cce6cb7fc7e2f5e67144d78c638f516d4ef4c156c568ce5",
+      "symlink_target": "../../outside-target",
+      "type": "blob"
+    },
+    {
+      "mode": "100755",
+      "oid": "587e088d05d2245f15e9bf941d2dcaee446c8b41",
+      "path": "run.py",
+      "sha256": "e6921fe5d6a22129134feb12f505a6b7712a5f187a2cac6feecdef25818deb3f",
+      "size": 19,
+      "store_key": "e6921fe5d6a22129134feb12f505a6b7712a5f187a2cac6feecdef25818deb3f",
+      "type": "blob"
+    },
+    {
+      "mode": "040000",
+      "oid": "94d9eef9716fbd74bf817dde47d6eda084b52600",
+      "path": "shared",
+      "type": "tree"
+    },
+    {
+      "mode": "160000",
+      "oid": "c6f33ee776af3e9fc44be9b3ae21295f020c8fe9",
+      "path": "shared/leaf-copy",
+      "source": "file:///workspace/out/repos/leaf.git",
+      "type": "gitlink"
+    },
+    {
+      "mode": "040000",
+      "oid": "a2b22613a9b7ea77546fbdeeb11a94fd9eb474c8",
+      "path": "shared/leaf-copy/data",
+      "type": "tree"
+    },
+    {
+      "lfs_pointer": true,
+      "mode": "100644",
+      "oid": "6cc68db48f674758f88a66c0f9e42054db085cb3",
+      "path": "shared/leaf-copy/data/map.bin",
+      "sha256": "48c9a29a8d0922de2bf1b91653c94af5cc1248303db66c442fa73ec6af269fdb",
+      "size": 127,
+      "store_key": "48c9a29a8d0922de2bf1b91653c94af5cc1248303db66c442fa73ec6af269fdb",
+      "type": "blob"
+    },
+    {
+      "mode": "040000",
+      "oid": "ab9958f40b92f986b5f8a00f78cc2d1d7365fc34",
+      "path": "shared/leaf-copy/docs",
+      "type": "tree"
+    },
+    {
+      "mode": "120000",
+      "oid": "c6d96ff23f9cc90c3bc9ce951d2dcf15e12fdd0f",
+      "path": "shared/leaf-copy/docs/link-to-sensor",
+      "sha256": "1ac0584fd9fe17766114cc89a3b94d258d79c2e03042dc5564128c6fc4b07f64",
+      "size": 10,
+      "store_key": "1ac0584fd9fe17766114cc89a3b94d258d79c2e03042dc5564128c6fc4b07f64",
+      "symlink_target": "sensor.txt",
+      "type": "blob"
+    },
+    {
+      "mode": "100755",
+      "oid": "16544a06285280e8bc7580a8cd1a4148d40aab03",
+      "path": "shared/leaf-copy/probe.sh",
+      "sha256": "e8c589cde2185fa68d06db170a541318c56d37d0929c8eb31ab0c81f063d808c",
+      "size": 25,
+      "store_key": "e8c589cde2185fa68d06db170a541318c56d37d0929c8eb31ab0c81f063d808c",
+      "type": "blob"
+    },
+    {
+      "mode": "100644",
+      "oid": "8603734d3fb1e2a3246a69eed09e7c9b00849912",
+      "path": "shared/leaf-copy/sensor.txt",
+      "sha256": "db6c63d79c9376dd63b92246bbc613c34ca2b11490697a2cb3abe8f2d3c134c8",
+      "size": 22,
+      "store_key": "db6c63d79c9376dd63b92246bbc613c34ca2b11490697a2cb3abe8f2d3c134c8",
+      "type": "blob"
+    }
+  ],
+  "limits": {
+    "max_bytes": 104857600,
+    "max_depth": 8,
+    "max_paths": 10000
+  },
+  "manifest_version": 1,
+  "root": {
+    "commit": "8807ab2b069919a1096399ce16994aadba6a0aa9",
+    "requested_ref": "main",
+    "source": "file:///workspace/out/repos/root.git",
+    "tree": "4a73bfda5e963c67453e4f0f3de005eeab2820dd"
+  },
+  "submodule_lock": [
+    {
+      "commit": "617876c576ec49c9ef94b066e540f0d6d5d93122",
+      "declared_url": "../middle.git",
+      "depth": 1,
+      "parent_path": null,
+      "parent_repo": "file:///workspace/out/repos/root.git",
+      "path": "a",
+      "resolved_repo": "file:///workspace/out/repos/middle.git",
+      "tree": "cff309af98195439393b82a2d70903d2f731f5be"
+    },
+    {
+      "commit": "ce05e57ebf713be19057c94e05a992548804ec0b",
+      "declared_url": "../group/deep.git",
+      "depth": 2,
+      "parent_path": "a",
+      "parent_repo": "file:///workspace/out/repos/middle.git",
+      "path": "a/deps/deep",
+      "resolved_repo": "file:///workspace/out/repos/group/deep.git",
+      "tree": "241263699c36552159903b8ec28cc9fa711e9ab9"
+    },
+    {
+      "commit": "c6f33ee776af3e9fc44be9b3ae21295f020c8fe9",
+      "declared_url": "../../leaf.git",
+      "depth": 3,
+      "parent_path": "a/deps/deep",
+      "parent_repo": "file:///workspace/out/repos/group/deep.git",
+      "path": "a/deps/deep/vendor/leaf",
+      "resolved_repo": "file:///workspace/out/repos/leaf.git",
+      "tree": "16b82248c8827fa2302de70660dd932930089eb9"
+    },
+    {
+      "commit": "2d1289906fcc64a091ad34db65461e20494c107b",
+      "declared_url": "../inner.git",
+      "depth": 2,
+      "parent_path": "a",
+      "parent_repo": "file:///workspace/out/repos/middle.git",
+      "path": "a/deps/inner",
+      "resolved_repo": "file:///workspace/out/repos/inner.git",
+      "tree": "783296f989545186b0291cf3c9e354bc52944554"
+    },
+    {
+      "commit": "c6f33ee776af3e9fc44be9b3ae21295f020c8fe9",
+      "declared_url": "../leaf.git",
+      "depth": 3,
+      "parent_path": "a/deps/inner",
+      "parent_repo": "file:///workspace/out/repos/inner.git",
+      "path": "a/deps/inner/vendor/sensor",
+      "resolved_repo": "file:///workspace/out/repos/leaf.git",
+      "tree": "16b82248c8827fa2302de70660dd932930089eb9"
+    },
+    {
+      "commit": "c6f33ee776af3e9fc44be9b3ae21295f020c8fe9",
+      "declared_url": "../leaf.git",
+      "depth": 2,
+      "parent_path": "a",
+      "parent_repo": "file:///workspace/out/repos/middle.git",
+      "path": "a/sensor",
+      "resolved_repo": "file:///workspace/out/repos/leaf.git",
+      "tree": "16b82248c8827fa2302de70660dd932930089eb9"
+    },
+    {
+      "commit": "c6f33ee776af3e9fc44be9b3ae21295f020c8fe9",
+      "declared_url": "../leaf.git",
+      "depth": 1,
+      "parent_path": null,
+      "parent_repo": "file:///workspace/out/repos/root.git",
+      "path": "b",
+      "resolved_repo": "file:///workspace/out/repos/leaf.git",
+      "tree": "16b82248c8827fa2302de70660dd932930089eb9"
+    },
+    {
+      "commit": "c6f33ee776af3e9fc44be9b3ae21295f020c8fe9",
+      "declared_url": "../leaf.git",
+      "depth": 1,
+      "parent_path": null,
+      "parent_repo": "file:///workspace/out/repos/root.git",
+      "path": "shared/leaf-copy",
+      "resolved_repo": "file:///workspace/out/repos/leaf.git",
+      "tree": "16b82248c8827fa2302de70660dd932930089eb9"
+    }
+  ],
+  "whitelist": [
+    "file:///workspace/out/repos/root.git",
+    "file:///workspace/out/repos/middle.git",
+    "file:///workspace/out/repos/inner.git",
+    "file:///workspace/out/repos/group/deep.git",
+    "file:///workspace/out/repos/leaf.git",
+    "file:///workspace/out/repos/broken.git",
+    "file:///workspace/out/repos/decl-mismatch.git",
+    "file:///workspace/out/repos/decl-duplicate.git",
+    "file:///workspace/out/repos/budget.git"
+  ]
+}

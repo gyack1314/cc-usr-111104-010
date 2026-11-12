@@ -1,0 +1,23 @@
+{
+  "root": "/workspace/out/repos/root.git",
+  "root_initial": "8807ab2b069919a1096399ce16994aadba6a0aa9",
+  "root_moved": "adef456383876fc4127f52f02bc0f1fef0d9ac6e",
+  "middle": "/workspace/out/repos/middle.git",
+  "middle_commit": "617876c576ec49c9ef94b066e540f0d6d5d93122",
+  "inner": "/workspace/out/repos/inner.git",
+  "inner_commit": "2d1289906fcc64a091ad34db65461e20494c107b",
+  "deep": "/workspace/out/repos/group/deep.git",
+  "deep_commit": "ce05e57ebf713be19057c94e05a992548804ec0b",
+  "leaf": "/workspace/out/repos/leaf.git",
+  "leaf_commit": "c6f33ee776af3e9fc44be9b3ae21295f020c8fe9",
+  "leaf_v2": "2358eca7010a80623d14d2fad65781ec64fa9db1",
+  "broken": "/workspace/out/repos/broken.git",
+  "broken_commit": "20846c04f0fdb82548c1f7a92114ea684dc8dfed",
+  "missing_sha": "0123456789abcdef0123456789abcdef01234567",
+  "decl_mismatch": "/workspace/out/repos/decl-mismatch.git",
+  "decl_mismatch_commit": "ea64711ef75d47e1e023c607734e7a4aaf605772",
+  "decl_duplicate": "/workspace/out/repos/decl-duplicate.git",
+  "decl_duplicate_commit": "274e7468e3e629e9b3261c485579dd97eeac3e09",
+  "budget": "/workspace/out/repos/budget.git",
+  "budget_commit": "b3aa7951e6b77624dd2030ec55d00c20eaf4a6ce"
+}

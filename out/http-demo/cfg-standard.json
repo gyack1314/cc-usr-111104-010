@@ -1,0 +1,13 @@
+{
+  "whitelist": [
+    "http://127.0.0.1:44903/root.git",
+    "http://127.0.0.1:44903/middle.git",
+    "http://127.0.0.1:44903/inner.git",
+    "http://127.0.0.1:44903/group/deep.git",
+    "http://127.0.0.1:44903/leaf.git",
+    "http://127.0.0.1:44903/broken.git",
+    "http://127.0.0.1:44903/decl-mismatch.git",
+    "http://127.0.0.1:44903/decl-duplicate.git",
+    "http://127.0.0.1:44903/budget.git"
+  ]
+}
